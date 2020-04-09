@@ -8,12 +8,9 @@ body {
     background: hsl(204, 43%, 93%)
 }
 
-.container {
-    display:flex;
-    flex-direction:column;
+.main-container{
     box-shadow: 0 0 10px;
     max-width: 700px;
-    margin-top:140px
 }
 
 /* Top Row */
@@ -53,17 +50,21 @@ body {
     color: white;
     padding-bottom: 40px;
 }
-.bottom-row-left h4{
-    margin:50px 0px 0px 20px;
+
+.bottom-row-left h4 {
+    margin: 50px 0px 0px 20px;
 }
-.bottom-row-left p{
-    padding:8px 0px 0px 20px;
+
+.bottom-row-left p {
+    padding: 8px 0px 0px 20px;
     color: hsl(204, 43%, 93%);
 }
-.bottom-row-left button{
-    margin:10px 0px 0px 10px;
-    padding:13px 100px
+
+.bottom-row-left button {
+    margin: 10px 0px 0px 10px;
+    padding: 13px 100px
 }
+
 span {
     font-size: 2.2em;
     color: white;
@@ -81,15 +82,18 @@ button {
     background: rgb(74, 191, 190);
     padding-bottom: 40px;
 }
-.bottom-row-right h4{
-    margin:50px 0px 25px 20px;
+
+.bottom-row-right h4 {
+    margin: 50px 0px 25px 20px;
 }
-.bottom-row-right ul{
-   margin:10px 0px 0px 20px;
+
+.bottom-row-right ul {
+    margin: 10px 0px 0px 20px;
 }
-.bottom-row-right li{
-    margin:0px 0px 5px 0px;
-    font-size:.9em;
+
+.bottom-row-right li {
+    margin: 0px 0px 5px 0px;
+    font-size: .9em;
     font-weight: normal;
-    color:hsl(204, 43%, 93%)
+    color: hsl(204, 43%, 93%)
 }
