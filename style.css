@@ -29,13 +29,13 @@ body {
 	background: white;
 }
 .top-col h5, p {
-	padding: 0 40px;
+	padding: 2px 40px;
 }
 .top-row-title {
 	color: hsl(179, 62%, 43%);
 	font-weight:700;
-	padding: 0px 40px 15px 40px;
-	font-size:1.4em;
+	padding: 0px 40px 12px 40px;
+	font-size:1.25em;
 
 }
 .top-row-subtitle {
