@@ -2,13 +2,15 @@
 	padding: 0;
 	margin: 0;
 }
-html {
-	height: 100%;
+html, body, .center {
+	height:100%; 
+}
+.center{
+	padding:0px 0px;
 }
 body {
 	font-family: 'Karla', sans-serif;
 	background: hsl(204, 43%, 93%);
-	height: 100%;
 }
 
 .main-container {
