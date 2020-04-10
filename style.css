@@ -17,7 +17,7 @@ body {
 }
 
 .main-container {
-	max-width: 700px;
+	max-width: 650px;
 	box-shadow: 1px 1px 14px  hsl(218, 22%, 67%);
 	background: hsl(204, 43%, 93%);
 	  border-radius: 5px 20px 5px;
@@ -31,6 +31,7 @@ body {
 
 .top-row-title {
 	color: hsl(179, 62%, 43%);
+	font-weight:700;
 }
 
 .top-row-subtitle {
@@ -42,10 +43,10 @@ body {
 }
 
 .top-col {
-	padding: 40px 0px 40px 0px;
+	padding: 40px 0px 18px 0px;
 }
 
-.top-col h2, h5, p {
+.top-col h3, h5, p {
 	padding: 0px 40px 10px 40px;
 }
 
@@ -57,22 +58,27 @@ body {
 .bottom-row-left {
 	background-color: hsl(179, 62%, 43%);
 	color: white;
-	padding-bottom: 40px;
+	padding-bottom: 25px;
 }
 
 .bottom-row-left h4 {
-	margin: 50px 0px 0px 20px;
-	font-size:1.3em;
+	margin: 40px 0px -1px 20px;
+	font-size:1.2em;
+		font-weight: 700;
+
 }
 
 .bottom-row-left p {
-	padding: 8px 0px 0px 20px;
+	padding: 0px 0px 0px 20px;
 	color: hsl(204, 43%, 93%);
 }
 
 .bottom-row-left button {
-	margin: 10px 0px 0px 20px;
-	padding: 13px 100px;
+	margin: 10px 0px 10px 20px;
+	padding: 10px 100px;
+	background: hsl(71, 73%, 54%);
+	color: white;
+
 }
 .price{
 	display: flex;
@@ -82,17 +88,12 @@ body {
 .price p{
 	padding:0 8px;
 	margin-top:15px;
-	font-size:1.2em;
+	font-size:1.0em;
 }
 span {
-	font-size: 2.5em;
+	font-size: 2.2em;
 	color: white;
-}
-
-button {
-	background: hsl(71, 73%, 54%);
-	color: white;
-	padding: 60px 20px;
+	font-weight:700;
 }
 
 /* Bottom Row Right */
@@ -100,11 +101,13 @@ button {
 .bottom-row-right {
 	color: white;
 	background: rgb(74, 191, 190);
-	padding-bottom:40px;	
+	padding-bottom:25px;	
 }
 
 .bottom-row-right h4 {
-	margin: 50px 0px 25px 20px;
+	margin: 40px 0px 15px 20px;
+	font-size:1.3em;
+	font-weight: 700;
 }
 
 .bottom-row-right ul {
@@ -112,8 +115,8 @@ button {
 }
 
 .bottom-row-right li {
-	margin: 0px 0px 5px 0px;
-	font-size: .9em;
+	margin: 0px 0px 1px 0px;
+	font-size: .8em;
 	font-weight: normal;
 	color: hsl(204, 43%, 93%);
 }
