@@ -60,17 +60,16 @@ body {
 
 .bottom-row-left h4 {
 	margin: 50px 0px 0px 20px;
+	font-size:1.3em;
 }
 
 .bottom-row-left p {
 	padding: 8px 0px 0px 20px;
 	color: hsl(204, 43%, 93%);
-	font-size: 16px
-
 }
 
 .bottom-row-left button {
-	margin: 10px 0px 0px 10px;
+	margin: 10px 0px 0px 20px;
 	padding: 13px 100px;
 }
 .price{
@@ -112,7 +111,7 @@ button {
 
 .bottom-row-right li {
 	margin: 0px 0px 5px 0px;
-  font-size: 16px;
+	font-size: .9em;
 	font-weight: normal;
 	color: hsl(204, 43%, 93%);
 }
