@@ -1,99 +1,102 @@
 * {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
-
+html {
+	height: 100%;
+}
 body {
-    font-family: 'Karla', sans-serif;
-    background: hsl(204, 43%, 93%)
+	font-family: 'Karla', sans-serif;
+	background: hsl(204, 43%, 93%);
+	height: 100%;
 }
 
-.main-container{
-    box-shadow: 0 0 10px;
-    max-width: 700px;
+.main-container {
+	box-shadow: 0 0 10px;
+	max-width: 700px;
 }
 
 /* Top Row */
 .col-12 {
-    padding: 40px 0px 40px 0px
+	padding: 40px 0px 40px 0px;
 }
 
-.col-12 h2,h5,p {
-    padding: 0px 40px 10px 40px;
+.col-12 h2,
+h5,
+p {
+	padding: 0px 40px 10px 40px;
 }
 
 .col-12 h2 {
-    padding-bottom: 20px
+	padding-bottom: 20px;
 }
 
 .top-row {
-    background: white;
+	background: white;
 }
 
 .top-row-title {
-    color: hsl(179, 62%, 43%);
+	color: hsl(179, 62%, 43%);
 }
 
 .top-row-subtitle {
-    color: hsl(71, 73%, 54%);
-
+	color: hsl(71, 73%, 54%);
 }
 
 .top-row-p {
-
-    color: hsl(218, 22%, 67%)
+	color: hsl(218, 22%, 67%);
 }
 
 /* Bottom Row Left */
 .bottom-row-left {
-    background-color: hsl(179, 62%, 43%);
-    color: white;
-    padding-bottom: 40px;
+	background-color: hsl(179, 62%, 43%);
+	color: white;
+	padding-bottom: 40px;
 }
 
 .bottom-row-left h4 {
-    margin: 50px 0px 0px 20px;
+	margin: 50px 0px 0px 20px;
 }
 
 .bottom-row-left p {
-    padding: 8px 0px 0px 20px;
-    color: hsl(204, 43%, 93%);
+	padding: 8px 0px 0px 20px;
+	color: hsl(204, 43%, 93%);
 }
 
 .bottom-row-left button {
-    margin: 10px 0px 0px 10px;
-    padding: 13px 100px
+	margin: 10px 0px 0px 10px;
+	padding: 13px 100px;
 }
 
 span {
-    font-size: 2.2em;
-    color: white;
+	font-size: 2.2em;
+	color: white;
 }
 
 button {
-    background: hsl(71, 73%, 54%);
-    color: white;
-    padding: 60px 20px;
+	background: hsl(71, 73%, 54%);
+	color: white;
+	padding: 60px 20px;
 }
 
 /* Bottom Row Right */
 .bottom-row-right {
-    color: white;
-    background: rgb(74, 191, 190);
-    padding-bottom: 40px;
+	color: white;
+	background: rgb(74, 191, 190);
+	padding-bottom: 40px;
 }
 
 .bottom-row-right h4 {
-    margin: 50px 0px 25px 20px;
+	margin: 50px 0px 25px 20px;
 }
 
 .bottom-row-right ul {
-    margin: 10px 0px 0px 20px;
+	margin: 10px 0px 0px 20px;
 }
 
 .bottom-row-right li {
-    margin: 0px 0px 5px 0px;
-    font-size: .9em;
-    font-weight: normal;
-    color: hsl(204, 43%, 93%)
+	margin: 0px 0px 5px 0px;
+	font-size: .9em;
+	font-weight: normal;
+	color: hsl(204, 43%, 93%);
 }
