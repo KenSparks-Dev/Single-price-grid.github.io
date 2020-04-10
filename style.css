@@ -28,31 +28,32 @@ body {
 .top-row {
 	background: white;
 }
-
+.top-col h5, p {
+	padding: 0 40px;
+}
 .top-row-title {
 	color: hsl(179, 62%, 43%);
 	font-weight:700;
-}
+	padding: 0px 40px 15px 40px;
+	font-size:1.4em;
 
+}
 .top-row-subtitle {
 	color: hsl(71, 73%, 54%);
+	font-size:1.0em;
+
 }
 
 .top-row-p {
 	color: hsl(218, 22%, 67%);
+	font-size:.9em;
+
 }
 
 .top-col {
 	padding: 40px 0px 18px 0px;
 }
 
-.top-col h3, h5, p {
-	padding: 0px 40px 10px 40px;
-}
-
-.top-col h2 {
-	padding-bottom: 20px;
-}
 
 /* Bottom Row Left */
 .bottom-row-left {
@@ -75,7 +76,7 @@ body {
 
 .bottom-row-left button {
 	margin: 10px 0px 10px 20px;
-	padding: 10px 100px;
+	padding: 10px 90px;
 	background: hsl(71, 73%, 54%);
 	color: white;
 
@@ -87,11 +88,11 @@ body {
 }
 .price p{
 	padding:0 8px;
-	margin-top:15px;
+	margin-top:10px;
 	font-size:1.0em;
 }
 span {
-	font-size: 2.2em;
+	font-size: 1.8em;
 	color: white;
 	font-weight:700;
 }
@@ -106,7 +107,7 @@ span {
 
 .bottom-row-right h4 {
 	margin: 40px 0px 15px 20px;
-	font-size:1.3em;
+	font-size:1.2em;
 	font-weight: 700;
 }
 
