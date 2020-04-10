@@ -4,13 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Frontend Mentor | Single Price Grid Component</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-  <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -21,7 +17,7 @@
     <div class="col mx-md-auto my-md-auto">
       <div class="container-fluid main-container">
         <div class="row top-row">
-          <div class="col-12">
+          <div class="col-12 top-col">
             <h2 class="top-row-title">Join Our Community</h2>
             <h5 class="top-row-subtitle">30 day, hassle-free money back guarantee</h5>
             <p class="top-row-p">Gain access to our full library of tutorials along with expert code reviews. <br>Perfect
@@ -31,10 +27,12 @@
         <div class="row bottom-row">
           <div class="col-md-6  bottom-row-left">
             <h4>Monthly Subscription</h4>
-            <p><span>$29</span> per month <br> Full access for less than $1 a day</p>
+            <div class="price">
+              <span>$29</span><p> per month</p> 
+            </div>
+            <p>Full access for less than $1 a day</p>
             <button type="button" class="btn">Sign Up</button>
           </div>
-    
           <div class="col-md-6 bottom-row-right">
             <h4>Why us</h4>
             <ul class="list-unstyled">
@@ -53,10 +51,6 @@
       </div>
     </div>
   </div>
-
- 
-
-
 
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
