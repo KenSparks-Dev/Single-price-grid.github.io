@@ -19,10 +19,11 @@
     "type": "git",
     "url": "git+https://github.com/KenSparksDev/Single-price-grid.git"
   },
-  "author": "",
+  "author": "Ken Sparks",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KenSparksDev/Single-price-grid/issues"
+    "url": 
+    "https://github.com/KenSparksDev/Single-price-grid/issues"
   },
   "homepage": "https://github.com/KenSparksDev/Single-price-grid#readme"
 }
