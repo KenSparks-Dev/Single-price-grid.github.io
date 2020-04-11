@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body{
-  overflow-y:hidden;
+	overflow-x: hidden;
 }
 html, body, .center {
 	height: 100%;
